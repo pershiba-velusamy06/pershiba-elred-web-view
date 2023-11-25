@@ -70,7 +70,7 @@ export const getRandomColor = (colors) =>
   colors[Math.floor(Math.random() * colors.length)];
 
 export function isProductionEnvironment() {
-  return false;
+  return true;
 }
 
 export function getUserCode() {
