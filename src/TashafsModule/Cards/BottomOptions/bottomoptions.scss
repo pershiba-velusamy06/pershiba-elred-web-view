@@ -1,0 +1,31 @@
+.bottom-options {
+  position: absolute;
+  bottom: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 0;
+  right: 0;
+  gap: 10px;
+
+  .option-wrapper {
+    width: 32px;
+    height: 32px;
+    border-radius: 10px;
+    // background-color: rgb(117, 117, 117);
+    background: #ffffff33;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    img{
+      height: 20px;
+      width: auto;
+      pointer-events: none;
+    }
+  }
+}
+
+.custom-width{
+  width: 100% !important;
+}

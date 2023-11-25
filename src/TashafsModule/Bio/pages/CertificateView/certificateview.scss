@@ -1,0 +1,48 @@
+.wrapper_certificate {
+  //   background: yellow;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+
+  img {
+    width: 90%;
+    pointer-events: none;
+  }
+}
+
+.cert_header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  z-index: 1;
+  position: sticky;
+  top: 0;
+  background: white;
+
+  .name {
+    display: flex;
+    align-items: center;
+    .certificate_name {
+      color: #000;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 24px;
+      letter-spacing: 0em;
+     // margin-left: 10px;
+    }
+  }
+
+  img {
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  .certi-icon-awar-spinner{
+    margin-right: 10px;
+  }
+
+}

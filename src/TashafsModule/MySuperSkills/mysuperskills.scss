@@ -1,0 +1,234 @@
+@font-face {
+  font-family: "WorkSans-Regular";
+  src: url("../../assets/fonts/fonts/WorkSans-Regular.ttf") format("opentype");
+  /* You may include additional font properties if needed */
+}
+@font-face {
+  font-family: "Raleway-SemiBold";
+  src: url("../../assets/fonts/fonts/Raleway-SemiBold.ttf") format("opentype");
+  /* You may include additional font properties if needed */
+}
+@font-face {
+  font-family: "Raleway-Regular";
+  src: url("../../assets/fonts/fonts/Raleway-Regular.ttf") format("opentype");
+  /* You may include additional font properties if needed */
+}
+
+.mysuperskills {
+  background-color: white;
+  height: 100vh;
+  background-color: white;
+  // padding: 20px;
+  .back-title {
+    // font-family: "WorkSans-Regular" !important;
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    /* padding: 0 20px 0 20px; */
+    /* height: 44px; */
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+
+    .back-super-icon-spinner {
+      //margin-right: -5px;
+    }
+    .back-button {
+      cursor: pointer;
+      padding: 15px 23px 15px 29px;
+    }
+    .super-skill-titile {
+      // font-family: "WorkSans-Regular";
+    }
+  }
+  .display-screen {
+    color: #000;
+    height: 75vh;
+    margin: 10px 20px 0 20px;
+    border-radius: 10px;
+    // border: 1px solid #bfbfbf;
+    // padding: 25px 12px;
+    padding: 20px 16px 10px;
+    // padding: 25px 12px 10px 12px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    // justify-content: space-between;
+
+    .question {
+      font-size: 28px;
+      font-weight: 700;
+      line-height: 42px;
+      color: white;
+      // font-family: "Raleway-SemiBold";
+    }
+
+    .no-super-skill-answer {
+      // font-family: "Raleway";
+      font-size: 20px;
+      line-height: 30px;
+      letter-spacing: 0em;
+      text-align: center;
+      margin-top: 22px;
+      color: #ffffff;
+    }
+
+    .answer {
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 30px;
+      color: white;
+      margin-top: 22px;
+      height: 100%;
+      overflow-y: auto;
+      // font-family: "Raleway-Regular";
+      padding-right: 7px;
+      white-space: break-spaces;
+      // word-wrap: break-word;
+      word-break: break-word;
+      a {
+        color: white;
+        text-decoration: underline;
+        font-style: italic;
+      }
+
+      &::-webkit-scrollbar {
+        width: 4px; /* Adjust this value to make the scrollbar thicker or thinner */
+      }
+      &::-webkit-scrollbar-thumb {
+        background-color: #979797; /* Color of the scrollbar thumb */
+        border-radius: 0px; /* Rounded corners for the thumb */
+      }
+
+      // &::-webkit-scrollbar-thumb:hover {
+      //   background-color: #555; /* Color of the scrollbar thumb on hover */
+      // }
+
+      a{
+        // text-decoration: none;
+        color: white;
+        // font-family: "Raleway-Regular";
+        font-weight: 600;
+      }
+    }
+  }
+
+  .display-screen-shimmer {
+    color: #000;
+    height: 72vh;
+    margin: 0 20px;
+    // margin-top: 20px;
+    border-radius: 10px;
+    border: 1px solid #bfbfbf;
+    padding: 25px 20px;
+    background-size: cover;
+    position: relative;
+    background-color: #e7e9ef;
+
+    img {
+      // position: absolute;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      cursor: pointer;
+      width: 155px;
+    }
+  }
+
+  .bottom-thumbnails {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 20px;
+    margin-top: 18px;
+    .thumbnail-div0 {
+      width: 76px;
+      height: 76px;
+      /* background-color: yellowgreen; */
+      border-radius: 10px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: 50% 65%;
+      border: 2px solid #cbcbcb;
+      cursor: pointer;
+    }
+    .thumbnail-div1 {
+      width: 76px;
+      height: 76px;
+      /* background-color: yellowgreen; */
+      border-radius: 10px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: 50% 66%;;
+      border: 2px solid #cbcbcb;
+      cursor: pointer;
+    }
+    .thumbnail-div2 {
+      width: 76px;
+      height: 76px;
+      /* background-color: yellowgreen; */
+      border-radius: 10px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: 50% 86%;
+      border: 2px solid #cbcbcb;
+      cursor: pointer;
+    }
+    .thumbnail-div3 {
+      width: 76px;
+      height: 76px;
+      /* background-color: yellowgreen; */
+      border-radius: 10px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: 50% 30%;
+      border: 2px solid #cbcbcb;
+      cursor: pointer;
+    }
+
+
+    .thumbnail-div-shimmer {
+      width: 76px;
+      height: 76px;
+      /* background-color: yellowgreen; */
+      border-radius: 10px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      border: 2px solid #cbcbcb;
+      cursor: pointer;
+      position: relative;
+      background-color: #e7e9ef;
+
+      img {
+        position: absolute;
+        height: 34px;
+        width: 42px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    }
+    .custom {
+      width: 86px;
+      height: 86px;
+    }
+  }
+}
+@media (min-width: 450px) {
+  .bottom-thumbnails {
+    margin-bottom: 16px !important;
+  }
+  .display-screen {
+    height: 70vh;
+  }
+}
+
+@media (max-width:450px) {
+  .bottom-thumbnails{
+    gap:7px
+  }
+}

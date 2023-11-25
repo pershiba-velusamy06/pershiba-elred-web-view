@@ -1,0 +1,230 @@
+.ratings-popup {
+  .ethical {
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .count-div {
+      color: #868686;
+      font-size: 16px;
+      font-weight: 400;
+      // font-family: "WorkSans-Regular";
+
+      .count {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 22px;
+        color: #000;
+        margin-right: 5px;
+        // font-family: "WorkSans-Regular";
+      }
+    }
+
+    .close-button {
+      img {
+        cursor: pointer;
+        border-radius: 50%;
+      }
+    }
+    .close-icon-loader {
+      position: absolute;
+      right: 0;
+      margin-right: 20px;
+    }
+  }
+
+  .search-ratings {
+    width: 100%;
+    border: none;
+    /* background: #eaecf2; */
+
+    // padding: 9px 15px !important;
+
+    border-radius: 60px;
+    margin-top: 25px;
+    // margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #eaecf2;
+
+    height: 46px;
+    padding: 0 15px;
+
+    input {
+      background: transparent;
+      outline: none;
+      border: none;
+      color: rgba(0, 0, 0, 1);
+      margin-left: 10px;
+      width: 100%;
+      // font-family: "WorkSans-Regular";
+    }
+    @supports (-webkit-touch-callout: none) {
+      input {
+        background: transparent;
+        outline: none;
+        border: none;
+        color: rgba(0, 0, 0, 1);
+        margin-left: 10px;
+        width: 100%;
+        // font-family: "WorkSans-Regular";
+        margin-top: 6px;
+      }
+   }
+    input::placeholder {
+      //font-family: Work Sans;
+      // font-family: "WorkSans-Regular";
+      font-size: 13px;
+      font-style: normal;
+      // font-weight: normal;
+      // line-height: 18px;
+      //letter-spacing: 1px;
+      color: rgba(183, 183, 183, 1);
+    }
+
+    input ::-webkit-input-placeholder {
+      text-align: center;
+      font-size: 13px;
+      font-style: normal;
+      // font-weight: normal;
+      // line-height: 18px;
+      //letter-spacing: 1px;
+      color: rgba(183, 183, 183, 1);
+    }
+    
+ 
+
+    .SearchIconsvg {
+      // font-size: 12px;
+      height: 18px;
+      width: 18px;
+      /* background: #898A8D; */
+      fill: #898a8d;
+      margin-right: 12px;
+    }
+
+    .vertical_border {
+      color: #000;
+      border-left: 0.8px solid #eaecf2;
+    }
+  }
+
+  .ratings-user {
+    //margin-top: 20px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    .avatar {
+      img {
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+        object-fit: cover;
+        pointer-events: none;
+       // background-color: #eaecf2;
+      }
+     
+    }
+    .profile1 {
+      padding: 0px 9px 0px 20px;
+      .name {
+        // color: #313030;
+        // font-size: 16px;
+        // font-weight: 500;
+        // line-height: 22px;
+
+        color: #313030;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 22px;
+        max-width: 210px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        text-wrap: nowrap;
+        text-transform: capitalize;
+        margin-right: 5px;
+      }
+      .designation {
+        color: #848484;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 16px;
+        white-space: nowrap;
+        // width: 250px;
+        // overflow: hidden;
+        // text-wrap: nowrap;
+      }
+    }
+  }
+  #user-hr {
+    color: #a5a5a5;
+    // margin-top: 10px;
+    // margin-bottom: 0;
+    margin: 0 0 !important;
+  }
+}
+
+
+.scrollingDiv {
+  height: calc(100vh - 137px);
+  // background-color: #313030;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 0 20px;
+
+  // to hide the scrollbar
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 3px;
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+}
+
+.ratings-header {
+  background: rgb(255, 255, 255);
+  padding: 20px;
+  padding-bottom: 0;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+ // margin-bottom: 20px;
+}
+.loader-margin-ratings {
+  margin-top: 50%;
+}
+
+.rating-loader {
+  // position: absolute;
+  // bottom: 0;
+  // left: 50%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.close-img {
+  cursor: pointer;
+}
+.bluetick {
+  //  margin-left: 10px;
+  position: relative;
+    img {
+    position: absolute;
+      width: 14px;
+      height: 14px;
+      top: 3px;
+    }
+  }

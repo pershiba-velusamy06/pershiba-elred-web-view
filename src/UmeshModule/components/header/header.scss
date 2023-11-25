@@ -1,0 +1,38 @@
+.header-container {
+  padding: 20px 20px 0 0px;
+  background-color: #ffffff;
+  padding-bottom: 10px;
+  overflow: hidden;
+
+  .back-img {
+    margin-right: 14px;
+    margin-left: 20px;
+    cursor: pointer;
+  }
+
+  .show-back-image {
+    display: none;
+  }
+
+  .search-icon {
+    // height: 22px;
+    width: 22px;
+    height: auto;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+  .header-title {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    font-family: "AvenirNextLTPro-Regular";
+    // line-height: 30px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+}
+
+.disabled_button{
+  pointer-events: none;
+}
